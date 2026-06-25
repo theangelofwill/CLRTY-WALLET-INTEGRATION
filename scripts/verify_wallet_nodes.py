@@ -22,7 +22,7 @@ ARTIFACTS: dict[str, list[str]] = {
     "N14": ["integration-package/PARTNER_OUTREACH_LETTER.md"],
     "N15": ["wallet-integration/manifests/institutional_sales_kit.json"],
     "N16": ["wallet-integration/docs/MARKET_MAKER_RFP.md"],
-    "N17": ["sdk/kernel/sdk.ts"],
+    "N17": ["sdk/clarity-wallet/src/sdk.ts"],
     "N18": ["wallet-integration/manifests/wallet_directory.json"],
     "N19": ["docs/audit/audit_data_room.md"],
     "N20": ["wallet-integration/manifests/listing_dossier_manifest.json"],
@@ -33,11 +33,16 @@ ARTIFACTS: dict[str, list[str]] = {
 }
 
 SDK_REQUIRED = [
+    "sdk/clarity-wallet/src/sdk.ts",
+    "sdk/clarity-wallet/src/index.ts",
+    "sdk/clarity-wallet/src/rpc/client.ts",
+    "sdk/clarity-wallet/src/wallet/identity.ts",
     "sdk/typescript/index.ts",
     "sdk/python/clrty_client.py",
+    "sdk/rust/clrty-client/Cargo.toml",
     "sdk/rust/clrty-client/src/lib.rs",
     "sdk/go/clrty/client.go",
-    "sdk/kernel/sdk.ts",
+    "sdk/openapi/clrty-api.yaml",
     "downloads/access_packs_manifest.json",
     "downloads/access_packs/AP-SDK-FULL.json",
     "downloads/access_packs/AP-WALLET-INT.json",

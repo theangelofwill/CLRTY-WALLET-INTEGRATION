@@ -19,7 +19,8 @@ All kits verified via `make verify`. SHA-256 checksums in `var/compliance/integr
 |-----|------|----------|
 | CLRTYWallet | [wallet-integration/src/clrty-wallet.ts](wallet-integration/src/clrty-wallet.ts) | TypeScript |
 | 10-line integrate | [integration-package/sdk/integrate.ts](integration-package/sdk/integrate.ts) | TypeScript |
-| SDK kernel | [sdk/kernel/sdk.ts](sdk/kernel/sdk.ts) | TypeScript (Execute/Predict/Identity) |
+| SDK kernel | [sdk/clarity-wallet/src/sdk.ts](sdk/clarity-wallet/src/sdk.ts) | TypeScript (Execute/Predict/Identity) |
+| Full kernel tree | [sdk/clarity-wallet/src/](sdk/clarity-wallet/src/) | wallet, rpc, dev, simulation |
 | TypeScript client | [sdk/typescript/index.ts](sdk/typescript/index.ts) | TypeScript |
 | Python client | [sdk/python/clrty_client.py](sdk/python/clrty_client.py) | Python |
 | Rust client | [sdk/rust/clrty-client/](sdk/rust/clrty-client/) | Rust |

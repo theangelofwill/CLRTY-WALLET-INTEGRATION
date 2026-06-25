@@ -1,15 +1,24 @@
 {
   "name": "@clrty/wallet-integration",
   "version": "0.1.0",
-  "description": "CLRTY Turn-Key Wallet Integration — 25 Leverage Nodes, Zero-Friction Partner Kit",
+  "description": "CLRTY Wallet Integration — full SDK suite, 25 leverage nodes, zero-friction kit",
   "type": "module",
-  "main": "wallet-integration/src/index.ts",
-  "scripts": {
-    "verify": "make verify"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION.git"
+  },
+  "exports": {
+    ".": "./sdk/clarity-wallet/src/index.ts",
+    "./kernel": "./sdk/clarity-wallet/src/sdk.ts",
+    "./wallet-integration": "./wallet-integration/src/index.ts",
+    "./client/typescript": "./sdk/typescript/index.ts",
+    "./client/python": "./sdk/python/clrty_client.py",
+    "./client/go": "./sdk/go/clrty/client.go",
+    "./integrate": "./integration-package/sdk/integrate.ts"
+  },
+  "scripts": {
+    "verify": "make verify",
+    "setup-hooks": "bash scripts/setup-git-hooks.sh"
   },
   "license": "UNLICENSED"
 }

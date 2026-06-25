@@ -44,7 +44,7 @@ High-signal outreach · Data room access · Stress testing · DNS hardening · *
 integration-package/     Zero-friction outreach + 10-line SDK
 wallet-integration/      25-node manifests, CLRTYWallet, phase docs
 portal/                  Professional UI + wallet directory
-sdk/                     TypeScript, Python, Rust, Go, OpenAPI, kernel
+sdk/                     TypeScript, Python, Rust, Go, OpenAPI, clarity-wallet kernel
 downloads/access_packs/    28 AP-* access pack manifests
 docs/audit/              Data room + compliance (Phase 3 N19)
 scripts/                 verify, build-kit, stress probe
@@ -59,7 +59,8 @@ dist/                    ZIP downloads (zero-friction + full bundle)
 |-----|------|
 | CLRTYWallet | [wallet-integration/src/clrty-wallet.ts](wallet-integration/src/clrty-wallet.ts) |
 | 10-line integrate | [integration-package/sdk/integrate.ts](integration-package/sdk/integrate.ts) |
-| Execute/Predict/Identity | [sdk/kernel/sdk.ts](sdk/kernel/sdk.ts) |
+| Execute/Predict/Identity | [sdk/clarity-wallet/src/sdk.ts](sdk/clarity-wallet/src/sdk.ts) |
+| Full SDK tree | [sdk/clarity-wallet/src/](sdk/clarity-wallet/src/) |
 | TypeScript REST | [sdk/typescript/index.ts](sdk/typescript/index.ts) |
 | Python | [sdk/python/clrty_client.py](sdk/python/clrty_client.py) |
 | Rust | [sdk/rust/clrty-client/](sdk/rust/clrty-client/) |
