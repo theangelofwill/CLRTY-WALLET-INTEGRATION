@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "kit": "integration-package-zero-friction",
+  "repository": "https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION",
+  "branch": "main",
+  "portal": "portal/index.html",
+  "directory": "portal/directory.html",
+  "download_zip": "dist/integration-package-zero-friction.zip",
+  "monorepo_api": "https://github.com/theangelofwill/-CLRTY",
+  "api": {
+    "registry": "GET /v1/wallet/registry",
+    "integration_kit": "GET /v1/wallet/integration-kit",
+    "directory": "GET /v1/wallet/directory",
+    "checklist": "GET /v1/wallet/checklist"
+  }
+}

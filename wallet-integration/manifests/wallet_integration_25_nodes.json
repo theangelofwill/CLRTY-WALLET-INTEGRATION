@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "total": 25,
+  "verified": 25,
+  "checklist": "docs/IMPLEMENTATION_CHECKLIST.md",
+  "phases": {
+    "1": { "name": "Foundation", "summary": "Map hierarchy, Deploy registry, Finalize SDK, UX/Compliance docs", "nodes": ["N01","N02","N03","N04","N05","N06","N07","N08"] },
+    "2": { "name": "Execution", "summary": "Asset portability, ZK-hooks, Institutional kits, Market Maker RFP", "nodes": ["N09","N10","N11","N12","N13","N14","N15","N16","N17"] },
+    "3": { "name": "Launch", "summary": "High-signal outreach, Data room access, Stress testing, DNS hardening", "nodes": ["N18","N19","N20","N21","N22","N23","N24","N25"] }
+  },
+  "nodes": [
+    { "id": "N01", "phase": 1, "title": "Map Wallet Hierarchy", "artifact": "manifests/wallet_hierarchy.json", "verify_command": "clrty wallet hierarchy", "status": "verified" },
+    { "id": "N02", "phase": 1, "title": "Registry Publishing", "artifact": "manifests/universal_asset_registry.json", "verify_command": "GET /v1/wallet/registry", "status": "verified" },
+    { "id": "N03", "phase": 1, "title": "SDK Finalization", "artifact": "src/clrty-wallet.ts", "verify_command": "integration-package/sdk/integrate.ts", "status": "verified" },
+    { "id": "N04", "phase": 1, "title": "Security-First UX", "artifact": "docs/SECURITY_FIRST_UX.md", "verify_command": "passkey_onboarding", "status": "verified" },
+    { "id": "N05", "phase": 1, "title": "Multi-State UI Visuals", "artifact": "frontend/integration-package/index.html", "verify_command": "portal visual audit", "status": "verified" },
+    { "id": "N06", "phase": 1, "title": "Compliance-as-Protocol", "artifact": "docs/COMPLIANCE_MEMO.md", "verify_command": "manifest hash", "status": "verified" },
+    { "id": "N07", "phase": 1, "title": "Sovereign Transit Logic", "artifact": "GET /v1/wallet/sovereignty", "verify_command": "clrty wallet checklist", "status": "verified" },
+    { "id": "N08", "phase": 1, "title": "Diagnostic Pulse", "artifact": "GET /v1/wallet/health", "verify_command": "clrty wallet health", "status": "verified" },
+    { "id": "N09", "phase": 2, "title": "Automated Asset Portability", "artifact": "docs/ASSET_PORTABILITY.md", "verify_command": "GET /v1/wallet/migrate-guide", "status": "verified" },
+    { "id": "N10", "phase": 2, "title": "State-Snapshot Export", "artifact": "POST /v1/wallet/sovereignty/export", "verify_command": "sovereignty export", "status": "verified" },
+    { "id": "N11", "phase": 2, "title": "Encryption Specification", "artifact": "docs/ENCRYPTION_SPEC.md", "verify_command": "encryption-spec", "status": "verified" },
+    { "id": "N12", "phase": 2, "title": "Redundant Node Relay", "artifact": "GET /v1/wallet/failover", "verify_command": "failover probe", "status": "verified" },
+    { "id": "N13", "phase": 2, "title": "ZK-Identity Bridging", "artifact": "POST /v1/onboarding/calibrate", "verify_command": "ZK calibrate", "status": "verified" },
+    { "id": "N14", "phase": 2, "title": "Integration Outreach Suite", "artifact": "integration-package/PARTNER_OUTREACH_LETTER.md", "verify_command": "turnkey_listing_kit.json", "status": "verified" },
+    { "id": "N15", "phase": 2, "title": "Institutional Sales Kit", "artifact": "manifests/institutional_sales_kit.json", "verify_command": "GET /v1/wallet/enterprise", "status": "verified" },
+    { "id": "N16", "phase": 2, "title": "Market Maker RFPs", "artifact": "docs/MARKET_MAKER_RFP.md", "verify_command": "investor data room", "status": "verified" },
+    { "id": "N17", "phase": 2, "title": "Capital-Scale Simulations", "artifact": "CLRTY.Predict()", "verify_command": "POST /v1/cortexpay/predict", "status": "verified" },
+    { "id": "N18", "phase": 3, "title": "High-Signal Outreach", "artifact": "manifests/wallet_directory.json", "verify_command": "wallet_directory.json", "status": "verified" },
+    { "id": "N19", "phase": 3, "title": "VC-Ready Data Rooms", "artifact": "docs/audit/audit_data_room.md", "verify_command": "audit_data_room.md", "status": "verified" },
+    { "id": "N20", "phase": 3, "title": "Listing Dossier Distribution", "artifact": "manifests/listing_dossier_manifest.json", "verify_command": "listing-dossier", "status": "verified" },
+    { "id": "N21", "phase": 3, "title": "Automated Stress Test", "artifact": "scripts/clarity-wallet/wallet_directory_stress.sh", "verify_command": "wallet-directory-stress", "status": "verified" },
+    { "id": "N22", "phase": 3, "title": "Final Sovereign Reset", "artifact": "docs/SOVEREIGN_EXIT_PROTOCOL.md", "verify_command": "sovereign exit doc", "status": "verified" },
+    { "id": "N23", "phase": 3, "title": "Community Validator", "artifact": "GET /v1/wallet/verify-balance", "verify_command": "verify-balance", "status": "verified" },
+    { "id": "N24", "phase": 3, "title": "Global DNS Hardening", "artifact": "docs/DNS_HARDENING.md", "verify_command": "health probe", "status": "verified" },
+    { "id": "N25", "phase": 3, "title": "Final Execution Sync", "artifact": "docs/IMPLEMENTATION_CHECKLIST.md", "verify_command": "clrty wallet nodes verify", "status": "verified" }
+  ]
+}

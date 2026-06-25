@@ -1,0 +1,9 @@
+{
+  "type": "ERC20",
+  "options": {
+    "address": "0x000000000000000000000000000000000000c1r7",
+    "symbol": "CLRTY",
+    "decimals": 9,
+    "image": "https://clrty.link/assets/clrty-logo.svg"
+  }
+}

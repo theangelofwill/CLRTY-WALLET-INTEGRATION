@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "symbol": "CLRTY",
+  "name": "CLRTY",
+  "decimals": 9,
+  "standard": "EIP-747-compatible",
+  "logo": "https://clrty.link/assets/clrty-logo.svg",
+  "chain_ids": ["clrty-l1", "ethereum", "base", "arbitrum"],
+  "mint_address": "CLRTY111111111111111111111111111111111111111",
+  "eip747": {
+    "type": "ERC20",
+    "options": {
+      "address": "0x000000000000000000000000000000000000c1r7",
+      "symbol": "CLRTY",
+      "decimals": 9,
+      "image": "https://clrty.link/assets/clrty-logo.svg"
+    }
+  }
+}

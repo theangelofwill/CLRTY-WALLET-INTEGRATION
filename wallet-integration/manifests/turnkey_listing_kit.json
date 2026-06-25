@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "kit": "turnkey-listing",
+  "download_pack": "AP-WALLET-INT",
+  "includes": [
+    {
+      "asset": "Asset Registry Link",
+      "route": "GET /v1/wallet/registry"
+    },
+    {
+      "asset": "Audit Hashes",
+      "path": "docs/audit/internal_audit_report.md"
+    },
+    {
+      "asset": "Integration Docs",
+      "path": "wallet-integration/docs/TURNKEY_LISTING_KIT.md"
+    },
+    {
+      "asset": "Compliance Memo",
+      "path": "wallet-integration/docs/COMPLIANCE_MEMO.md"
+    },
+    {
+      "asset": "Plugin SDK",
+      "path": "@clrty/clarity-wallet"
+    },
+    {
+      "asset": "Zero-Friction Packet",
+      "path": "integration-package/ZERO_FRICTION_PACKET.md"
+    },
+    {
+      "asset": "Portal",
+      "path": "frontend/integration-package/index.html"
+    }
+  ],
+  "outreach_templates": [
+    "tier1_anchor_intro",
+    "hardware_wallet_partnership",
+    "mirra_exclusive_pitch"
+  ],
+  "github_branch": "https://github.com/theangelofwill/-CLRTY/tree/The-Integration-Package-(Zero-Friction)",
+  "portal_url": "frontend/integration-package/index.html",
+  "zip": "dist/integration-package-zero-friction.zip"
+}

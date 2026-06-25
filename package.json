@@ -1,0 +1,15 @@
+{
+  "name": "@clrty/wallet-integration",
+  "version": "0.1.0",
+  "description": "CLRTY Turn-Key Wallet Integration — 25 Leverage Nodes, Zero-Friction Partner Kit",
+  "type": "module",
+  "main": "wallet-integration/src/index.ts",
+  "scripts": {
+    "verify": "make verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION.git"
+  },
+  "license": "UNLICENSED"
+}

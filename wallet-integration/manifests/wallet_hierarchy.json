@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "title": "CLRTY Wallet Hierarchy Map",
+  "layers": [
+    {
+      "tier": 1,
+      "label": "anchor",
+      "description": "Primary consumer wallets — native integration target",
+      "wallets": ["metamask", "trust", "phantom", "coinbase"]
+    },
+    {
+      "tier": 2,
+      "label": "niche_hardware",
+      "description": "Hardware and power-user wallets",
+      "wallets": ["ledger", "trezor"]
+    },
+    {
+      "tier": 3,
+      "label": "emerging",
+      "description": "Growth and ecosystem wallets",
+      "wallets": ["rabby", "backpack"]
+    }
+  ],
+  "integration_stack": [
+    "universal_asset_registry",
+    "clrty_wallet_sdk",
+    "eip747_watchAsset",
+    "compliance_memo",
+    "turnkey_listing_kit"
+  ]
+}

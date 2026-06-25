@@ -1,0 +1,5 @@
+node_modules/
+dist/*.zip
+!dist/integration-package-zero-friction.zip
+var/staging/
+.DS_Store

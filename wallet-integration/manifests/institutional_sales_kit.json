@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kit": "institutional-sales",
+  "includes": [
+    "INVESTOR_DATA_ROOM_INDEX.md",
+    "docs/audit/audit_data_room.md",
+    "docs/audit/internal_audit_report.md",
+    "docs/tokenomics/TOKENOMICS_LOCKED.md",
+    "clarity-wallet/wallet-integration/docs/COMPLIANCE_MEMO.md"
+  ],
+  "api": "GET /v1/wallet/enterprise",
+  "contact": "partnerships@clrty.link"
+}

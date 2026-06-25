@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "dossier": "listing-dossier",
+  "artifacts": [
+    "integration-package/PARTNER_OUTREACH_LETTER.md",
+    "clarity-wallet/wallet-integration/manifests/universal_asset_registry.json",
+    "clarity-wallet/wallet-integration/docs/COMPLIANCE_MEMO.md",
+    "docs/audit/internal_audit_report.md",
+    "dist/integration-package-zero-friction.zip"
+  ],
+  "distribution": "wallet_directory.json tier-1 anchors"
+}

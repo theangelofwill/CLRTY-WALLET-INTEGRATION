@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "tiers": {
+    "1": "anchor",
+    "2": "niche_hardware",
+    "3": "emerging"
+  },
+  "wallets": [
+    { "name": "MetaMask", "slug": "metamask", "tier": 1, "integration_status": "native_integration", "native_integration": true, "mirra_exclusive": false, "recommended": true },
+    { "name": "Trust Wallet", "slug": "trust", "tier": 1, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": true },
+    { "name": "Phantom", "slug": "phantom", "tier": 1, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": true, "recommended": true },
+    { "name": "Coinbase Wallet", "slug": "coinbase", "tier": 1, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": true },
+    { "name": "Ledger", "slug": "ledger", "tier": 2, "integration_status": "sdk_ready", "native_integration": false, "mirra_exclusive": false, "recommended": false },
+    { "name": "Trezor", "slug": "trezor", "tier": 2, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": false, "recommended": false },
+    { "name": "Rabby", "slug": "rabby", "tier": 3, "integration_status": "deferred", "native_integration": false, "mirra_exclusive": false, "recommended": false },
+    { "name": "Backpack", "slug": "backpack", "tier": 3, "integration_status": "in_progress", "native_integration": false, "mirra_exclusive": true, "recommended": true }
+  ]
+}
