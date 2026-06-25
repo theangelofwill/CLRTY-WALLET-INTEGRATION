@@ -1,0 +1,12 @@
+{
+  "id": "AP-DATA-01",
+  "name": "Intelligence Snapshot",
+  "version": "0.1.0",
+  "repo": "clarity-data",
+  "description": "CLRTY access pack \u2014 Intelligence Snapshot",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

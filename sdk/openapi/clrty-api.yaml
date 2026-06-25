@@ -1,0 +1,304 @@
+openapi: 3.0.3
+info:
+  title: CLRTY API
+  version: 0.1.0
+paths:
+  /v1/status:
+    get:
+      summary: Chain status
+      tags:
+      - core
+  /rpc:
+    post:
+      summary: JSON-RPC 2.0
+      tags:
+      - rpc
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+  /v1/wallet/environments:
+    get:
+      summary: Wallet catalog
+      tags:
+      - wallet
+  /v1/wallet/finder:
+    get:
+      summary: Wallet finder
+      tags:
+      - wallet
+  /v1/dx/parse:
+    post:
+      summary: Parse DX URL
+      tags:
+      - dx
+  /v1/intelligence/overview:
+    get:
+      summary: Intelligence overview
+      tags:
+      - intelligence
+  /v1/intelligence/x402/quote:
+    post:
+      summary: x402 quote
+      tags:
+      - intelligence
+  /v1/sections/status:
+    get:
+      summary: Section build health
+      tags:
+      - sections
+  /v1/wallet:
+    get:
+      summary: wallet-core
+      tags:
+      - wallet
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: WAL-01
+  /v1/wallet/sign:
+    get:
+      summary: wallet-signer
+      tags:
+      - wallet
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: WAL-14
+  /v1/learn:
+    get:
+      summary: learn-intro
+      tags:
+      - learn
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: LEARN-01
+  /v1/intelligence:
+    get:
+      summary: intel-cde
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-01
+  /v1/intelligence/x402:
+    get:
+      summary: intel-x402
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-03
+  /v1/intelligence/network:
+    get:
+      summary: intel-network
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-04
+  /v1/intelligence/stable:
+    get:
+      summary: intel-stable
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-05
+  /v1/intelligence/defi:
+    get:
+      summary: intel-defi
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-06
+  /v1/nano:
+    get:
+      summary: intel-nano
+      tags:
+      - intelligence
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: INTEL-08
+  /v1/stream:
+    get:
+      summary: rpc-websocket
+      tags:
+      - rpc
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: RPC-08
+  /v1/dx/execute:
+    get:
+      summary: dx-execute
+      tags:
+      - dx
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: DX-02
+  /v1/dx/primitives:
+    get:
+      summary: dx-primitives
+      tags:
+      - dx
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: DX-03
+  /v1/dx:
+    get:
+      summary: dx-helix
+      tags:
+      - dx
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: DX-04
+  /v1/onboarding:
+    get:
+      summary: sys-moniversion
+      tags:
+      - system
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: SYS-02
+  /v1/sections:
+    get:
+      summary: sys-sections
+      tags:
+      - system
+      parameters:
+      - name: X-CLRTY-MLX-Score
+        in: header
+        schema:
+          type: string
+      - name: X-CLRTY-Section-Id
+        in: header
+        schema:
+          type: string
+          default: SYS-04
+components:
+  schemas:
+    RpcMethod:
+      type: object
+      properties:
+        name:
+          type: string
+x-rpc-methods:
+- getBalance
+- getAccountInfo
+- getTokenAccountBalance
+- getParsedTokenAccountsByOwner
+- getTransaction
+- getSignaturesForAddress
+- sendTransaction
+- simulateTransaction
+- getBlock
+- getBlockHeight
+- getSlot
+- getProgramAccounts
+- getSupply
+- get_set_status
+- getBridgeStatus
+- getClusterNodes
+- getVersion
+- getHealth
+- getRecentBlockhash
+- getMinimumBalanceForRentExemption
+x-section-count: 57

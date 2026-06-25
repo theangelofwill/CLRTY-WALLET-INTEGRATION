@@ -22,6 +22,7 @@
       "total": 8
     }
   },
+  "sdk_missing": [],
   "nodes": [
     {
       "id": "N01",

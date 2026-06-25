@@ -1,0 +1,12 @@
+{
+  "id": "AP-SKILLS-02",
+  "name": "Marketplace Plugins",
+  "version": "0.1.0",
+  "repo": "clarity-agents",
+  "description": "CLRTY access pack \u2014 Marketplace Plugins",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

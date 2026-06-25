@@ -1,0 +1,12 @@
+{
+  "id": "AP-SDK-RUST",
+  "name": "Rust SDK",
+  "version": "0.1.0",
+  "repo": "clarity-sdk",
+  "description": "CLRTY access pack \u2014 Rust SDK",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AP-EXAMPLES-01",
+  "name": "Starter Kits",
+  "version": "0.1.0",
+  "repo": "clarity-examples",
+  "description": "CLRTY access pack \u2014 Starter Kits",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

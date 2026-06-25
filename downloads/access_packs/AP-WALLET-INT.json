@@ -1,0 +1,12 @@
+{
+  "id": "AP-WALLET-INT",
+  "name": "Turn-Key Integration Kit",
+  "version": "0.1.0",
+  "repo": "clarity-wallets",
+  "description": "CLRTY access pack \u2014 Turn-Key Integration Kit",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

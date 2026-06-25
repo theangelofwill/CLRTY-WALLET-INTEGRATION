@@ -1,0 +1,12 @@
+{
+  "id": "AP-WALLET-02",
+  "name": "Mobile Wallet Shell",
+  "version": "0.1.0",
+  "repo": "clarity-wallets",
+  "description": "CLRTY access pack \u2014 Mobile Wallet Shell",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

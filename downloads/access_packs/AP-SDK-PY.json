@@ -1,0 +1,12 @@
+{
+  "id": "AP-SDK-PY",
+  "name": "Python SDK",
+  "version": "0.1.0",
+  "repo": "clarity-sdk",
+  "description": "CLRTY access pack \u2014 Python SDK",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AP-TOKEN-01",
+  "name": "Smart Token Modules",
+  "version": "0.1.0",
+  "repo": "clarity-core",
+  "description": "CLRTY access pack \u2014 Smart Token Modules",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

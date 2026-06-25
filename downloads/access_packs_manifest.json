@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "AP-WALLET-01",
+      "name": "Web Wallet",
+      "filename": "ap-wallet-01.json",
+      "path": "access_packs/AP-WALLET-01.json",
+      "sha256": "280a446d03cd93faded5737ce1c6d0e0c4eac8a12018489db2d2999205398e15",
+      "size_bytes": 221,
+      "version": "0.1.0",
+      "repo": "clarity-wallets",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-WALLET-02",
+      "name": "Mobile Wallet Shell",
+      "filename": "ap-wallet-02.json",
+      "path": "access_packs/AP-WALLET-02.json",
+      "sha256": "0de02fa0dc1672b548e7a2119b0644fccfa71d1c02839f87f9a7d3ef9f3ee8b3",
+      "size_bytes": 239,
+      "version": "0.1.0",
+      "repo": "clarity-wallets",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-WALLET-03",
+      "name": "Browser Extension",
+      "filename": "ap-wallet-03.json",
+      "path": "access_packs/AP-WALLET-03.json",
+      "sha256": "079218b23c71850c3183639a6429e5a7bf394dcdac69da76e1259e76b8fc0972",
+      "size_bytes": 235,
+      "version": "0.1.0",
+      "repo": "clarity-wallets",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-SDK-JS",
+      "name": "JavaScript SDK",
+      "filename": "ap-sdk-js.json",
+      "path": "access_packs/AP-SDK-JS.json",
+      "sha256": "68456abc9d2aa868cad1ce19157b5eb0f7e65663844cdf161679a5cfee0c7a7b",
+      "size_bytes": 222,
+      "version": "0.1.0",
+      "repo": "clarity-sdk",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SDK-PY",
+      "name": "Python SDK",
+      "filename": "ap-sdk-py.json",
+      "path": "access_packs/AP-SDK-PY.json",
+      "sha256": "d5218b9c288b7e45231ec81d9d7ee1fdb7484f0ca0e0b1d923af819ad878ae23",
+      "size_bytes": 214,
+      "version": "0.1.0",
+      "repo": "clarity-sdk",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SDK-RUST",
+      "name": "Rust SDK",
+      "filename": "ap-sdk-rust.json",
+      "path": "access_packs/AP-SDK-RUST.json",
+      "sha256": "22349d977875ed60cb0eb3cbb21fa692ecbd5b4691af23eb7c5aa45add5f1e5c",
+      "size_bytes": 212,
+      "version": "0.1.0",
+      "repo": "clarity-sdk",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SDK-GO",
+      "name": "Go SDK",
+      "filename": "ap-sdk-go.json",
+      "path": "access_packs/AP-SDK-GO.json",
+      "sha256": "30ab1287767e116d6636226bf69a287dfbbc2d9fb21cde2c246580dd34a98db4",
+      "size_bytes": 206,
+      "version": "0.1.0",
+      "repo": "clarity-sdk",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SDK-FULL",
+      "name": "Full SDK Bundle",
+      "filename": "ap-sdk-full.json",
+      "path": "access_packs/AP-SDK-FULL.json",
+      "sha256": "d864cfb940f8c7ec1ecc5cb10a78c3da8192eadad5f4786775bf605c9484b05e",
+      "size_bytes": 226,
+      "version": "0.1.0",
+      "repo": "clarity-sdk",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-DEV-CLI",
+      "name": "CLI + DevTools",
+      "filename": "ap-dev-cli.json",
+      "path": "access_packs/AP-DEV-CLI.json",
+      "sha256": "79260ae6bb642077a62d2aa6c3fb63a13705ce83555999e099a428866766e73c",
+      "size_bytes": 228,
+      "version": "0.1.0",
+      "repo": "clarity-devtools",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-DEV-LOCALNET",
+      "name": "Localnet Kit",
+      "filename": "ap-dev-localnet.json",
+      "path": "access_packs/AP-DEV-LOCALNET.json",
+      "sha256": "9a985839e4781af3568f86ad309e317e6218a6b72cf242a89d0497f664a18a18",
+      "size_bytes": 229,
+      "version": "0.1.0",
+      "repo": "clarity-devtools",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-DEV-SIMULATOR",
+      "name": "Simulator",
+      "filename": "ap-dev-simulator.json",
+      "path": "access_packs/AP-DEV-SIMULATOR.json",
+      "sha256": "4a450faf0fb5355aa03ba9c3577bdc470432122a30237be8ef81baf9ecfa419e",
+      "size_bytes": 224,
+      "version": "0.1.0",
+      "repo": "clarity-devtools",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-HELIX-01",
+      "name": "Execution API",
+      "filename": "ap-helix-01.json",
+      "path": "access_packs/AP-HELIX-01.json",
+      "sha256": "9a72c7da83359a5302fedeed67dc316dbfa597f1eb9ce49de997f1c446681e97",
+      "size_bytes": 224,
+      "version": "0.1.0",
+      "repo": "clarity-helix",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-HELIX-02",
+      "name": "Routing Engine",
+      "filename": "ap-helix-02.json",
+      "path": "access_packs/AP-HELIX-02.json",
+      "sha256": "51a52ff5f6654a3e7ef7f6eaf00f3e1357e2dc8d2c307c8525355290b9e88081",
+      "size_bytes": 226,
+      "version": "0.1.0",
+      "repo": "clarity-helix",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SKILLS-01",
+      "name": "Skill Packs",
+      "filename": "ap-skills-01.json",
+      "path": "access_packs/AP-SKILLS-01.json",
+      "sha256": "805711a45c1b6f78c3801b934350c6ad9d4bed3fa60b265a983f97b948b074d9",
+      "size_bytes": 222,
+      "version": "0.1.0",
+      "repo": "clarity-agents",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-SKILLS-02",
+      "name": "Marketplace Plugins",
+      "filename": "ap-skills-02.json",
+      "path": "access_packs/AP-SKILLS-02.json",
+      "sha256": "343dfcfa010ca2c17258329be7884ee09c51b91455d95684f0c34faba0406dc1",
+      "size_bytes": 238,
+      "version": "0.1.0",
+      "repo": "clarity-agents",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-TOKEN-01",
+      "name": "Smart Token Modules",
+      "filename": "ap-token-01.json",
+      "path": "access_packs/AP-TOKEN-01.json",
+      "sha256": "a8fd5644e1e6f0ee8c2543bdeebffa515f268a15b6b470ef0498365ea9dbff7b",
+      "size_bytes": 235,
+      "version": "0.1.0",
+      "repo": "clarity-core",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-TOKEN-02",
+      "name": "Token Templates",
+      "filename": "ap-token-02.json",
+      "path": "access_packs/AP-TOKEN-02.json",
+      "sha256": "3923e8f1381c159af8e2171bf8f43a502f8f296fa5553bb3ae487dd5b3ef72d1",
+      "size_bytes": 227,
+      "version": "0.1.0",
+      "repo": "clarity-core",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-DATA-01",
+      "name": "Intelligence Snapshot",
+      "filename": "ap-data-01.json",
+      "path": "access_packs/AP-DATA-01.json",
+      "sha256": "2982a04882845c143c3834a56dba2343e95a0ea9357e5cd9c7e46f06484d696d",
+      "size_bytes": 238,
+      "version": "0.1.0",
+      "repo": "clarity-data",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-DATA-02",
+      "name": "x402 Feed Access",
+      "filename": "ap-data-02.json",
+      "path": "access_packs/AP-DATA-02.json",
+      "sha256": "3e278e779244d7626c34be079fabde1395c7b76fb9a5aeb00047a09a6c0c4d96",
+      "size_bytes": 228,
+      "version": "0.1.0",
+      "repo": "clarity-x402",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-DX-01",
+      "name": "DX Link Templates",
+      "filename": "ap-dx-01.json",
+      "path": "access_packs/AP-DX-01.json",
+      "sha256": "7180da88b77f5b7fc9873a6c11ef898dfc471fb14540576b983d6107ad04d7d2",
+      "size_bytes": 227,
+      "version": "0.1.0",
+      "repo": "clarity-api",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-RPC-01",
+      "name": "RPC Reference",
+      "filename": "ap-rpc-01.json",
+      "path": "access_packs/AP-RPC-01.json",
+      "sha256": "a020452c2874c04fe99e8291268a1bd532c0cdc349649931aa13a9c2c8dd1ffb",
+      "size_bytes": 220,
+      "version": "0.1.0",
+      "repo": "clarity-api",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-WALLET-INT",
+      "name": "Turn-Key Integration Kit",
+      "filename": "ap-wallet-int.json",
+      "path": "access_packs/AP-WALLET-INT.json",
+      "sha256": "2e6c0a5756c8e1d746d72489ff57b551f87817ea98e35c0a628f8a73dbd1a5ff",
+      "size_bytes": 250,
+      "version": "0.1.0",
+      "repo": "clarity-wallets",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-WALLET-DIR",
+      "name": "Listing Dossier",
+      "filename": "ap-wallet-dir.json",
+      "path": "access_packs/AP-WALLET-DIR.json",
+      "sha256": "67d74cff6904414e0ea06841393a7f19ee8659240a0541891536e3cf2684df03",
+      "size_bytes": 232,
+      "version": "0.1.0",
+      "repo": "clarity-wallets",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-AGENTS-01",
+      "name": "Agent Starter Kit",
+      "filename": "ap-agents-01.json",
+      "path": "access_packs/AP-AGENTS-01.json",
+      "sha256": "adf40e250f8f07fade21b21b9dbeb1ab475738921054df44126d341b85ba8b5b",
+      "size_bytes": 234,
+      "version": "0.1.0",
+      "repo": "clarity-agents",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-LEARN-01",
+      "name": "Learn Chapters Pack",
+      "filename": "ap-learn-01.json",
+      "path": "access_packs/AP-LEARN-01.json",
+      "sha256": "0eaed05f56e292bcfbbd73f967924eb12bccb66a410dd2ad41ba4409828013e5",
+      "size_bytes": 235,
+      "version": "0.1.0",
+      "repo": "clarity-docs",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-EXAMPLES-01",
+      "name": "Starter Kits",
+      "filename": "ap-examples-01.json",
+      "path": "access_packs/AP-EXAMPLES-01.json",
+      "sha256": "6976b20894236bcee8056a31eb644cb711a9aa2e8c7f66b3a0bda0c2276af212",
+      "size_bytes": 228,
+      "version": "0.1.0",
+      "repo": "clarity-examples",
+      "requires_api_key": false
+    },
+    {
+      "id": "AP-EXAMPLES-02",
+      "name": "Advanced Examples",
+      "filename": "ap-examples-02.json",
+      "path": "access_packs/AP-EXAMPLES-02.json",
+      "sha256": "0fb6682f5adf5560864dd5474892e1275c9f45508e3bd7143be62f867deda9ec",
+      "size_bytes": 238,
+      "version": "0.1.0",
+      "repo": "clarity-examples",
+      "requires_api_key": true
+    },
+    {
+      "id": "AP-FULL",
+      "name": "Complete Ecosystem Pack",
+      "filename": "ap-full.json",
+      "path": "access_packs/AP-FULL.json",
+      "sha256": "1600d0bc8d98843e1d79ef8c4cd76685147ac890b4e188badbc4b80b6b71d3b6",
+      "size_bytes": 239,
+      "version": "0.1.0",
+      "repo": "clarity-labs",
+      "requires_api_key": true
+    }
+  ]
+}

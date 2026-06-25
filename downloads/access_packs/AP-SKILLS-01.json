@@ -1,0 +1,12 @@
+{
+  "id": "AP-SKILLS-01",
+  "name": "Skill Packs",
+  "version": "0.1.0",
+  "repo": "clarity-agents",
+  "description": "CLRTY access pack \u2014 Skill Packs",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

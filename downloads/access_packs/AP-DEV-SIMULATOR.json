@@ -1,0 +1,12 @@
+{
+  "id": "AP-DEV-SIMULATOR",
+  "name": "Simulator",
+  "version": "0.1.0",
+  "repo": "clarity-devtools",
+  "description": "CLRTY access pack \u2014 Simulator",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

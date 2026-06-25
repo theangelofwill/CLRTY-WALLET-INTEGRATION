@@ -1,0 +1,12 @@
+{
+  "id": "AP-SDK-FULL",
+  "name": "Full SDK Bundle",
+  "version": "0.1.0",
+  "repo": "clarity-sdk",
+  "description": "CLRTY access pack \u2014 Full SDK Bundle",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AP-EXAMPLES-02",
+  "name": "Advanced Examples",
+  "version": "0.1.0",
+  "repo": "clarity-examples",
+  "description": "CLRTY access pack \u2014 Advanced Examples",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

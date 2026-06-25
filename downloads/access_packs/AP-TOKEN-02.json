@@ -1,0 +1,12 @@
+{
+  "id": "AP-TOKEN-02",
+  "name": "Token Templates",
+  "version": "0.1.0",
+  "repo": "clarity-core",
+  "description": "CLRTY access pack \u2014 Token Templates",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

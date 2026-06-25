@@ -5,71 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CLRTY · Integration Package (Zero-Friction)</title>
   <style>
-    body { font-family: system-ui, sans-serif; --accent-cyan: #00e5ff; background: #0a0e14; color: #e8e8e8; margin: 0; }
-    .site-header { border-bottom: 1px solid #2a3544; padding: 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
-    .site-header a { color: #00e5ff; margin-left: 1rem; }
-    .ip-hero { border: 1px solid #00e5ff44; padding: 2rem; margin: 2rem auto; max-width: 960px; background: linear-gradient(135deg,#0a0e14,#111820); }
+    body { font-family: system-ui, sans-serif; background: #0a0e14; color: #e8e8e8; margin: 0; }
+    .site-header { border-bottom: 1px solid #2a3544; padding: 1rem; display: flex; justify-content: space-between; flex-wrap: wrap; }
+    .site-header a { color: #00e5ff; margin-left: 1rem; text-decoration: none; }
+    .ip-hero { border: 1px solid #00e5ff44; padding: 2rem; margin: 2rem auto; max-width: 960px; background: #111820; }
     .ip-hero h1 { color: #00e5ff; margin: 0 0 .5rem; }
     .ip-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); max-width: 960px; margin: 0 auto 2rem; padding: 0 1rem; }
     .ip-card { border: 1px solid #2a3544; padding: 1.25rem; background: #0d1219; }
-    .ip-card h2 { font-size: 1.1rem; color: #00e5ff; margin-top: 0; }
+    .ip-card h2 { color: #00e5ff; font-size: 1.1rem; margin-top: 0; }
     pre.ip-code { background: #05080c; border: 1px solid #2a3544; padding: 1rem; overflow-x: auto; font-size: .85rem; }
-    .ip-btn { display: inline-block; margin: .75rem .5rem 0 0; padding: .5rem 1rem; border: 1px solid #00e5ff; color: #00e5ff; text-decoration: none; background: transparent; cursor: pointer; }
-    .ip-btn:hover { background: #00e5ff22; }
+    .ip-btn { display: inline-block; margin: .5rem .5rem 0 0; padding: .5rem 1rem; border: 1px solid #00e5ff; color: #00e5ff; text-decoration: none; background: transparent; cursor: pointer; }
     .cd-lead { color: #aaa; }
-    .cd-vault-kicker { color: #00e5ff; font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+    .cd-vault-kicker { color: #00e5ff; font-size: .85rem; text-transform: uppercase; }
   </style>
 </head>
 <body>
   <header class="site-header">
     <strong>CLRTY Wallet Integration</strong>
     <nav>
-      <a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/wallet-integration/docs/IMPLEMENTATION_CHECKLIST.md">25 Nodes Checklist</a>
-      <a href="directory.html">Wallet Directory</a>
-      <a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION">GitHub Repo</a>
+      <a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/wallet-integration/docs/IMPLEMENTATION_CHECKLIST.md">25 Nodes</a>
+      <a href="directory.html">Directory</a>
+      <a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/DOWNLOADS.md">Downloads</a>
+      <a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION">GitHub</a>
     </nav>
   </header>
 
   <section class="ip-hero">
-    <p class="cd-vault-kicker">Sovereign Asset · Turn-Key Partner Kit</p>
-    <h1>The Integration Package (Zero-Friction)</h1>
-    <p class="cd-lead">Asset registry, 10-line SDK, audit hashes, partnership terms — 25 leverage nodes verified.</p>
+    <p class="cd-vault-kicker">Sovereign Asset · 25/25 Verified</p>
+    <h1>Integration Package (Zero-Friction)</h1>
+    <p class="cd-lead">Full SDK suite · 28 access packs · audit data room · partner outreach</p>
+    <a class="ip-btn" href="../dist/integration-package-zero-friction.zip" download>Zero-Friction ZIP</a>
+    <a class="ip-btn" href="../dist/clrty-wallet-integration-full.zip" download>Full Bundle ZIP</a>
     <a class="ip-btn" href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/integration-package/PARTNER_OUTREACH_LETTER.md">Outreach Letter</a>
-    <a class="ip-btn" href="../dist/integration-package-zero-friction.zip" download>Download ZIP Kit</a>
-    <a class="ip-btn" href="directory.html">Professional Directory →</a>
+    <a class="ip-btn" href="directory.html">Wallet Directory →</a>
   </section>
 
   <div class="ip-grid">
     <article class="ip-card">
-      <h2>1 · Asset Registry</h2>
-      <p>EIP-747 compatible — CLRTY · 9 decimals · 16M supply</p>
-      <ul>
-        <li><code>GET /v1/wallet/registry</code></li>
-        <li>EVM <code>0x000000000000000000000000000000000000c1r7</code></li>
-      </ul>
-      <a class="ip-btn" href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/wallet-integration/manifests/universal_asset_registry.json">Registry JSON</a>
+      <h2>Phase 1 · Foundation</h2>
+      <p>Hierarchy, registry, SDK, UX/compliance — N01–N08</p>
     </article>
     <article class="ip-card">
-      <h2>2 · Integration SDK</h2>
-      <pre class="ip-code" id="sdkSnippet">import { CLRTYWallet } from '@clrty/wallet-integration';
-
-const clrty = CLRTYWallet.connect({ api: 'http://127.0.0.1:8545' });
-const balance = await clrty.getBalance(wallet);
-const route = await clrty.suggestBridgePath({ wallet, amount: 1_000_000_000n });
-await clrty.promptWatchAsset();</pre>
-      <button class="ip-btn" type="button" onclick="navigator.clipboard.writeText(document.getElementById('sdkSnippet').innerText)">Copy SDK</button>
+      <h2>Phase 2 · Execution</h2>
+      <p>Portability, ZK-hooks, institutional kits, MM RFP — N09–N17</p>
     </article>
     <article class="ip-card">
-      <h2>3 · Audit &amp; Compliance</h2>
-      <ul>
-        <li><a href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/blob/main/wallet-integration/docs/COMPLIANCE_MEMO.md">Compliance memo</a></li>
-        <li>Monorepo audit: <a href="https://github.com/theangelofwill/-CLRTY/tree/main/docs/audit">docs/audit</a></li>
-      </ul>
+      <h2>Phase 3 · Launch</h2>
+      <p>Outreach, data room, stress test, DNS — N18–N25</p>
     </article>
     <article class="ip-card">
-      <h2>4 · Sovereign Partnership</h2>
-      <p>Fee share on $CLRTY swaps · dedicated RPC node access</p>
-      <p>RPC <code>:8899</code> · REST <code>:8545</code></p>
+      <h2>SDK Suite</h2>
+      <p>TS · Python · Rust · Go · OpenAPI · CLRTYWallet</p>
+      <a class="ip-btn" href="https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION/tree/main/sdk">sdk/</a>
     </article>
   </div>
 </body>

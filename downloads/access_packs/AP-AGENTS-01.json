@@ -1,0 +1,12 @@
+{
+  "id": "AP-AGENTS-01",
+  "name": "Agent Starter Kit",
+  "version": "0.1.0",
+  "repo": "clarity-agents",
+  "description": "CLRTY access pack \u2014 Agent Starter Kit",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

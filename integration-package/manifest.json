@@ -1,16 +1,18 @@
 {
-  "version": 1,
-  "kit": "integration-package-zero-friction",
+  "version": 2,
   "repository": "https://github.com/theangelofwill/CLRTY-WALLET-INTEGRATION",
-  "branch": "main",
-  "portal": "portal/index.html",
-  "directory": "portal/directory.html",
-  "download_zip": "dist/integration-package-zero-friction.zip",
-  "monorepo_api": "https://github.com/theangelofwill/-CLRTY",
-  "api": {
-    "registry": "GET /v1/wallet/registry",
-    "integration_kit": "GET /v1/wallet/integration-kit",
-    "directory": "GET /v1/wallet/directory",
-    "checklist": "GET /v1/wallet/checklist"
-  }
+  "downloads": {
+    "zero_friction": {
+      "file": "dist/integration-package-zero-friction.zip",
+      "sha256": "13795daaec271c937b6f1eb571d11cb4c914f7e247a357a6783cb453a1f67614"
+    },
+    "full_bundle": {
+      "file": "dist/clrty-wallet-integration-full.zip",
+      "sha256": "20f54100a130c4a954646dd08c3601e328dce6af932726915f6eae75d33e78e7",
+      "includes": ["sdk", "downloads/access_packs", "docs/audit", "wallet-integration", "integration-package", "portal", "scripts"]
+    }
+  },
+  "sdk": ["typescript", "python", "rust", "go", "kernel", "openapi"],
+  "access_packs": 28,
+  "nodes_verified": "25/25"
 }

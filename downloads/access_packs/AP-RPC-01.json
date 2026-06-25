@@ -1,0 +1,12 @@
+{
+  "id": "AP-RPC-01",
+  "name": "RPC Reference",
+  "version": "0.1.0",
+  "repo": "clarity-api",
+  "description": "CLRTY access pack \u2014 RPC Reference",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

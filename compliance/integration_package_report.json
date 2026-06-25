@@ -1,6 +1,15 @@
 {
-  "zip": "integration-package-zero-friction.zip",
-  "sha256": "d082f42391cd596f02224f1756b2a8f53056fb0231315ea72139353f69fa0006",
-  "kit": "zero-friction",
+  "kits": [
+    {
+      "name": "integration-package-zero-friction",
+      "file": "integration-package-zero-friction.zip",
+      "sha256": "13795daaec271c937b6f1eb571d11cb4c914f7e247a357a6783cb453a1f67614"
+    },
+    {
+      "name": "clrty-wallet-integration-full",
+      "file": "clrty-wallet-integration-full.zip",
+      "sha256": "20f54100a130c4a954646dd08c3601e328dce6af932726915f6eae75d33e78e7"
+    }
+  ],
   "status": "built"
 }

@@ -1,0 +1,12 @@
+{
+  "id": "AP-FULL",
+  "name": "Complete Ecosystem Pack",
+  "version": "0.1.0",
+  "repo": "clarity-labs",
+  "description": "CLRTY access pack \u2014 Complete Ecosystem Pack",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AP-SDK-GO",
+  "name": "Go SDK",
+  "version": "0.1.0",
+  "repo": "clarity-sdk",
+  "description": "CLRTY access pack \u2014 Go SDK",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

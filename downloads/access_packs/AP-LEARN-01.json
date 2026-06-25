@@ -1,0 +1,12 @@
+{
+  "id": "AP-LEARN-01",
+  "name": "Learn Chapters Pack",
+  "version": "0.1.0",
+  "repo": "clarity-docs",
+  "description": "CLRTY access pack \u2014 Learn Chapters Pack",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

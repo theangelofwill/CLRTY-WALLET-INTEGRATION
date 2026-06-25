@@ -1,0 +1,12 @@
+{
+  "id": "AP-HELIX-01",
+  "name": "Execution API",
+  "version": "0.1.0",
+  "repo": "clarity-helix",
+  "description": "CLRTY access pack \u2014 Execution API",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

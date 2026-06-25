@@ -1,0 +1,12 @@
+{
+  "id": "AP-DX-01",
+  "name": "DX Link Templates",
+  "version": "0.1.0",
+  "repo": "clarity-api",
+  "description": "CLRTY access pack \u2014 DX Link Templates",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

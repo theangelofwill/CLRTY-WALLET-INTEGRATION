@@ -1,0 +1,12 @@
+{
+  "id": "AP-DEV-LOCALNET",
+  "name": "Localnet Kit",
+  "version": "0.1.0",
+  "repo": "clarity-devtools",
+  "description": "CLRTY access pack \u2014 Localnet Kit",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

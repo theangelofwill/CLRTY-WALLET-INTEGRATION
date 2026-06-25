@@ -1,0 +1,12 @@
+{
+  "id": "AP-DATA-02",
+  "name": "x402 Feed Access",
+  "version": "0.1.0",
+  "repo": "clarity-x402",
+  "description": "CLRTY access pack \u2014 x402 Feed Access",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

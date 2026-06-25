@@ -1,0 +1,12 @@
+{
+  "id": "AP-WALLET-DIR",
+  "name": "Listing Dossier",
+  "version": "0.1.0",
+  "repo": "clarity-wallets",
+  "description": "CLRTY access pack \u2014 Listing Dossier",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}

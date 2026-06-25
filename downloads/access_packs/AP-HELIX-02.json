@@ -1,0 +1,12 @@
+{
+  "id": "AP-HELIX-02",
+  "name": "Routing Engine",
+  "version": "0.1.0",
+  "repo": "clarity-helix",
+  "description": "CLRTY access pack \u2014 Routing Engine",
+  "contents": [
+    "manifest",
+    "docs",
+    "samples"
+  ]
+}
