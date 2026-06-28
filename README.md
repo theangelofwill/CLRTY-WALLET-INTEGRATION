@@ -6,6 +6,8 @@ Standalone repository: [theangelofwill/CLRTY-WALLET-INTEGRATION](https://github.
 
 Monorepo API: [theangelofwill/-CLRTY](https://github.com/theangelofwill/-CLRTY) (`clrty-api` on `:8545`)
 
+PRISM CLI: [williamsnameiswill/clarity-prism-cli](https://github.com/williamsnameiswill/clarity-prism-cli) **v1.0.2** — install `clrt`, run `clrt wallet *`, username P2P via `clrt prism commons send`. See **[docs/PRISM_CLI_INTEGRATION.md](docs/PRISM_CLI_INTEGRATION.md)**.
+
 ---
 
 ## Downloads (start here)

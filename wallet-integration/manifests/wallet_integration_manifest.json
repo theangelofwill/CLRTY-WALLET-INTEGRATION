@@ -1,5 +1,12 @@
 {
   "version": 1,
   "module": "wallet-integration",
-  "status": "built"
+  "status": "built",
+  "prism_cli": {
+    "version": "1.0.2",
+    "micro": 1,
+    "repo": "williamsnameiswill/clarity-prism-cli",
+    "tag": "v1.0.2",
+    "integration_doc": "docs/PRISM_CLI_INTEGRATION.md"
+  }
 }
