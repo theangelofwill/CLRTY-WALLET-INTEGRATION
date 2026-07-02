@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "slug": "clrty-labs",
+  "access_pack": "AP-LABS-01",
+  "react_route": "/labs",
+  "status": "built",
+  "labs": {
+    "version": 1,
+    "generated_at": "2026-07-02T00:43:24.002314+00:00",
+    "chain_id": "clrty-1",
+    "numeric_chain_id": 1202,
+    "title": "CLRTY Labs Walkthrough",
+    "description": "Twelve-step builder funnel for CLRTY-1 sovereign mainnet at dev.clrty.io/labs",
+    "labs_url": "https://labs.clarity-fintech.com",
+    "api_base": "https://api.clarity-fintech.com",
+    "rpc_base": "https://rpc.clarity-fintech.com",
+    "walkthrough_source": "frontend/labs/walkthrough/steps.json",
+    "chainlist": {
+      "chainId": "0x4B2",
+      "chainIdDecimal": 1202,
+      "chainName": "CLRTY L1",
+      "chainSlug": "clrty-1",
+      "nativeCurrency": {
+        "name": "CLRTY",
+        "symbol": "CLRTY",
+        "decimals": 9
+      },
+      "rpcUrls": [
+        "https://rpc.clarity-fintech.com",
+        "https://api.clrty.dev/rpc"
+      ],
+      "wsUrls": [
+        "wss://rpc.clarity-fintech.com/ws"
+      ],
+      "blockExplorerUrls": [
+        "https://explorer.clarity-fintech.com"
+      ]
+    },
+    "sections": [
+      {
+        "id": "SEC-01",
+        "step": 1,
+        "label": "Discover",
+        "section": "CLRTY-1 / Moniverse",
+        "description": "Read chain spec, PoC tuple, and genesis entropy. CLRTY-1 is the only execution network.",
+        "action": "status",
+        "doc": "chain/index.html"
+      },
+      {
+        "id": "SEC-02",
+        "step": 2,
+        "label": "Connect",
+        "section": "Clarity Wallet",
+        "description": "Connect wallet via adapter; add network chainId 1202 (9 decimals).",
+        "action": null,
+        "doc": "../../docs/consumer_wallet_guide.md"
+      },
+      {
+        "id": "SEC-03",
+        "step": 3,
+        "label": "Fund",
+        "section": "Faucet",
+        "description": "Request test uclrty via FMA-governed faucet (non-mainnet clusters).",
+        "action": "airdrop",
+        "doc": null
+      },
+      {
+        "id": "SEC-04",
+        "step": 4,
+        "label": "Intent",
+        "section": "PRISM",
+        "description": "Submit structured intent JSON via clrt prism query.",
+        "action": null,
+        "doc": "../../clarity-prism-cli/README.md"
+      },
+      {
+        "id": "SEC-05",
+        "step": 5,
+        "label": "Simulate",
+        "section": "PoC / EntropyBus",
+        "description": "Run simulateTransaction; review FMA vector and MLX toxicity score.",
+        "action": "simulate",
+        "doc": null
+      },
+      {
+        "id": "SEC-06",
+        "step": 6,
+        "label": "Execute",
+        "section": "HELIX",
+        "description": "Preview HELIX route and private mempool path.",
+        "action": "helix",
+        "doc": null
+      },
+      {
+        "id": "SEC-07",
+        "step": 7,
+        "label": "Prove",
+        "section": "ProofLab / DeSci",
+        "description": "Execution proof and replay hash from explorer.",
+        "action": null,
+        "doc": "explorer/index.html"
+      },
+      {
+        "id": "SEC-08",
+        "step": 8,
+        "label": "Commit",
+        "section": "NSAL / Sets",
+        "description": "Query Set tier via GET /v1/sets/:address.",
+        "action": null,
+        "doc": null
+      },
+      {
+        "id": "SEC-09",
+        "step": 9,
+        "label": "Skills",
+        "section": "Quantum Skills",
+        "description": "Run MCA/EHL skill modules from clrty CLI.",
+        "action": null,
+        "doc": null
+      },
+      {
+        "id": "SEC-10",
+        "step": 10,
+        "label": "Govern",
+        "section": "Moniverse DAO",
+        "description": "Snapshot vote with FMA proposal gate.",
+        "action": null,
+        "doc": null
+      },
+      {
+        "id": "SEC-11",
+        "step": 11,
+        "label": "Cross-chain",
+        "section": "Bridge monitor",
+        "description": "ETH bridge telemetry via Alchemy CLI \u2014 not L1 execution.",
+        "action": null,
+        "doc": null
+      },
+      {
+        "id": "SEC-13",
+        "step": 12,
+        "label": "Launch",
+        "section": "Production verify",
+        "description": "Smoke public RPC getSlot and operational dashboard.",
+        "action": "slot",
+        "doc": null
+      }
+    ],
+    "content_database_funnel": [
+      {
+        "id": "SEC-01",
+        "slug": "token-extensions",
+        "manifest": "token-extensions/manifests/token_extensions_manifest.json",
+        "react_route": "/extensions",
+        "access_pack": "AP-TOKEN-01"
+      },
+      {
+        "id": "SEC-02",
+        "slug": "network-intelligence",
+        "manifest": "network-intelligence/manifests/network_intelligence_manifest.json",
+        "react_route": "/intelligence",
+        "access_pack": "AP-DATA-01"
+      },
+      {
+        "id": "SEC-03",
+        "slug": "developer-resources",
+        "manifest": "manifests/developer_resources_manifest.json",
+        "react_route": "/dev",
+        "access_pack": "AP-DEV-CLI"
+      },
+      {
+        "id": "SEC-04",
+        "slug": "dx-live-links",
+        "manifest": "dx-live-links/manifests/dx_live_links_manifest.json",
+        "react_route": "/dx",
+        "access_pack": "AP-DX-01"
+      },
+      {
+        "id": "SEC-05",
+        "slug": "clarity-rpc",
+        "manifest": "manifests/clarity_rpc_method_index.json",
+        "react_route": "/rpc",
+        "access_pack": "AP-RPC-01"
+      },
+      {
+        "id": "SEC-06",
+        "slug": "wallet-integration",
+        "manifest": "wallet-integration/manifests/wallet_integration_manifest.json",
+        "react_route": "/wallets",
+        "access_pack": "AP-WALLET-INT"
+      },
+      {
+        "id": "SEC-07",
+        "slug": "sdk-kernel",
+        "manifest": "src/sdk.ts",
+        "react_route": null,
+        "access_pack": "AP-SDK-FULL"
+      },
+      {
+        "id": "SEC-08",
+        "slug": "learn-ch0",
+        "manifest": "learn/chapters/ch00-basics/content.json",
+        "react_route": "/learn/0",
+        "access_pack": "AP-LEARN-01"
+      },
+      {
+        "id": "SEC-09",
+        "slug": "learn-ch2",
+        "manifest": "learn/chapters/ch02-wallet-foundations/content.json",
+        "react_route": "/learn/2",
+        "access_pack": "AP-LEARN-01"
+      },
+      {
+        "id": "SEC-10",
+        "slug": "learn-ch3",
+        "manifest": "learn/chapters/ch03-transaction-fees/content.json",
+        "react_route": "/learn/3",
+        "access_pack": "AP-LEARN-01"
+      },
+      {
+        "id": "SEC-11",
+        "slug": "learn-ch4",
+        "manifest": "learn/chapters/ch04-value-transfer/content.json",
+        "react_route": "/learn/4",
+        "access_pack": "AP-LEARN-01"
+      },
+      {
+        "id": "SEC-12",
+        "slug": "learn-ch10",
+        "manifest": "learn/chapters/ch10-security/content.json",
+        "react_route": "/learn/10",
+        "access_pack": "AP-LEARN-01"
+      },
+      {
+        "id": "SEC-13",
+        "slug": "clrty-labs",
+        "manifest": "labs/manifests/clrty_labs_manifest.json",
+        "react_route": "/labs",
+        "access_pack": "AP-LABS-01"
+      }
+    ],
+    "env_vars": [
+      "CLRTY_L1_RPC",
+      "CLRTY_L1_WS",
+      "CLRTY_L1_CHAIN_ID",
+      "CLRTY_L1_NUMERIC_CHAIN_ID"
+    ]
+  }
+}
